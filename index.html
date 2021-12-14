@@ -57,7 +57,7 @@
                 let ids = ["dayname","month","daynum","year","hour","minutes", "secondes", "period"];
                 let values = [week[dname], month[mo], dnum.pad(2), yr.pad(2), hou.pad(2), min.pad(2), sec.pad(2), pe];
                 for(let i = 0; i < ids.length; i++)
-                document.getElementById(ids[i].firstChild.nodeValue = values[i]);
+                document.getElementById(ids[i]).firstChild.nodeValue = values[i];
                 
         }
 
